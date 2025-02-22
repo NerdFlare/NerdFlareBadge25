@@ -1111,7 +1111,1006 @@
 				)
 			)
 		)
-		(symbol ".badge24:SC0918"
+		(symbol ".badge24:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.889) (xy -0.635 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.524) (xy 0.635 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.889) (xy 0.635 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol ".badge24:SW_Slide_SPDT_SMALL"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Slide_SPDT_SMALL"
+				(at -1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 13.97 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch, single pole dual throw"
+				(at 1.27 -12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Slide_SPDT_SMALL_0_0"
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_SPDT_SMALL_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_SPDT_SMALL_1_1"
+				(rectangle
+					(start -1.397 3.175)
+					(end -0.762 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.762 1.905)
+					(end -0.127 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol ".badge24:SolderJumper_3_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol ".badge24:VDD"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NerdFlare25:SC0918"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3155,176 +4154,7 @@
 				)
 			)
 		)
-		(symbol ".badge24:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.889) (xy -0.635 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.524) (xy 0.635 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.889) (xy 0.635 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.889) (xy -2.54 0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol ".badge24:SW_Slide_SPDT_SMALL"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -3338,8 +4168,8 @@
 					)
 				)
 			)
-			(property "Value" "SW_Slide_SPDT_SMALL"
-				(at -1.27 -5.08 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3347,7 +4177,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 13.97 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3364,8 +4194,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Slide Switch, single pole dual throw"
-				(at 1.27 -12.065 0)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3382,31 +4212,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Slide_SPDT_SMALL_0_0"
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Slide_SPDT_SMALL_0_1"
+			(symbol "SW_SPDT_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -3418,278 +4224,46 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "SW_Slide_SPDT_SMALL_1_1"
-				(rectangle
-					(start -1.397 3.175)
-					(end -0.762 -0.635)
+			(symbol "SW_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.651 2.286)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start -0.762 1.905)
-					(end -0.127 0.635)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
+			)
+			(symbol "SW_SPDT_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol ".badge24:SolderJumper_3_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Open"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 3-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Open_0_1"
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -3707,25 +4281,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -3734,262 +4290,6 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol ".badge24:VDD"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "2"
 						(effects
 							(font
@@ -3998,225 +4298,10 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "LED:APA102"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "APA102"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_RGB_5050-6"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED addressable 8bit pwm 5bit greyscale"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*RGB*5050*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "APA102_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "APA102_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "APA102_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin passive line
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "DI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "CI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4224,60 +4309,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "CO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "DO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4305,12 +4336,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6662ef9c-ac7f-445c-aa7f-b4ef033f98e0")
-	)
-	(junction
-		(at 96.52 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76a41d4d-581b-412f-9108-85e3beb0842e")
 	)
 	(junction
 		(at 201.93 87.63)
@@ -4349,6 +4374,10 @@
 	(no_connect
 		(at 110.49 95.25)
 		(uuid "099412c4-bf51-451e-866e-5a612e33eb5c")
+	)
+	(no_connect
+		(at 110.49 80.01)
+		(uuid "1cb7585a-a033-426e-bafb-9f5d34fc1f90")
 	)
 	(no_connect
 		(at 110.49 92.71)
@@ -4415,16 +4444,12 @@
 		(uuid "864f9104-b13d-4eab-9740-ed2e1cb6815d")
 	)
 	(no_connect
+		(at 110.49 82.55)
+		(uuid "8942f4a1-7dbc-41fa-8357-9367960f5431")
+	)
+	(no_connect
 		(at 110.49 90.17)
 		(uuid "96328b2c-6b8d-460c-bdb8-7f29c6dab60e")
-	)
-	(no_connect
-		(at 78.74 106.68)
-		(uuid "9e7c8798-d509-438d-ba8c-b30c94dcf834")
-	)
-	(no_connect
-		(at 78.74 104.14)
-		(uuid "9fa7c816-c1ff-4216-9334-6fcf2660260d")
 	)
 	(no_connect
 		(at 166.37 118.11)
@@ -4456,13 +4481,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 111.76) (xy 96.52 111.76)
+			(xy 55.88 129.54) (xy 57.15 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "060145e0-044b-4f96-a7ff-87b761721682")
+		(uuid "0b3e3eef-4203-41f5-9442-47625131d846")
 	)
 	(wire
 		(pts
@@ -4516,13 +4541,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 83.82) (xy 86.36 96.52)
+			(xy 55.88 97.79) (xy 57.15 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "173ff138-9c2c-4711-a3d4-881b10603b57")
+		(uuid "1d8c9226-0668-43dc-9548-7b827de99ebf")
+	)
+	(wire
+		(pts
+			(xy 64.77 77.47) (xy 67.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f5d4a7-7809-42fc-8880-124f80a92e09")
 	)
 	(wire
 		(pts
@@ -4536,13 +4571,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 82.55) (xy 97.79 82.55)
+			(xy 55.88 77.47) (xy 57.15 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a634d30-c469-4f71-afe6-83266abcd671")
+		(uuid "2972ffea-db5b-4d02-b32f-15e27516937f")
 	)
 	(wire
 		(pts
@@ -4563,6 +4598,16 @@
 			(type default)
 		)
 		(uuid "2ccaed9b-a3e9-44bb-8df5-4fde506d20c3")
+	)
+	(wire
+		(pts
+			(xy 55.88 139.7) (xy 57.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e70a200-d3a2-4d05-8cd2-52bcffc39be7")
 	)
 	(wire
 		(pts
@@ -4596,16 +4641,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 102.87) (xy 100.33 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35bbb0dd-ff51-423d-bd17-8fc321c288ce")
-	)
-	(wire
-		(pts
 			(xy 228.6 88.9) (xy 231.14 88.9)
 		)
 		(stroke
@@ -4616,13 +4651,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 80.01) (xy 102.87 102.87)
+			(xy 64.77 87.63) (xy 67.31 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4094cf10-a8af-4cd2-a02e-e39ab674d3ca")
+		(uuid "3fcbb8a1-e2a6-44ed-bd3f-56a16a63c275")
 	)
 	(wire
 		(pts
@@ -4646,16 +4681,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 102.87) (xy 102.87 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42795887-bee3-4cd4-b39a-daeae65e7742")
-	)
-	(wire
-		(pts
 			(xy 224.79 123.19) (xy 224.79 125.73)
 		)
 		(stroke
@@ -4673,6 +4698,16 @@
 			(type default)
 		)
 		(uuid "477337fd-43e2-496d-b413-51474b5ddda2")
+	)
+	(wire
+		(pts
+			(xy 55.88 149.86) (xy 57.15 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a77506-9f8f-4d34-9c40-b4be218d740e")
 	)
 	(wire
 		(pts
@@ -4706,13 +4741,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 83.82) (xy 86.36 83.82)
+			(xy 55.88 170.18) (xy 57.15 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bbfdbea-e26f-419f-a81d-6383da3535a8")
+		(uuid "5af0f11a-2ad4-46c0-a95b-7455db370acb")
 	)
 	(wire
 		(pts
@@ -4746,6 +4781,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 139.7) (xy 67.31 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67502650-72d1-41f6-85fb-7782dfb8c68f")
+	)
+	(wire
+		(pts
+			(xy 64.77 170.18) (xy 67.31 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745420a5-9fb2-4c2e-91d2-c5ce0ec091fb")
+	)
+	(wire
+		(pts
 			(xy 106.68 142.24) (xy 110.49 142.24)
 		)
 		(stroke
@@ -4763,6 +4818,16 @@
 			(type default)
 		)
 		(uuid "7f9dfa0c-4790-4ed9-b110-6fb5c0a94efc")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 57.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd54806-eb2d-41e5-a93f-d43205d0955c")
 	)
 	(wire
 		(pts
@@ -4806,6 +4871,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 149.86) (xy 67.31 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8396a3-9994-46d4-9ad8-1e0e4abee997")
+	)
+	(wire
+		(pts
 			(xy 101.6 125.73) (xy 110.49 125.73)
 		)
 		(stroke
@@ -4813,6 +4888,26 @@
 			(type default)
 		)
 		(uuid "9f7de5b9-188c-407d-ab19-baad60be3842")
+	)
+	(wire
+		(pts
+			(xy 64.77 160.02) (xy 67.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b599f5-e5b8-4ede-a077-1689ccebac42")
+	)
+	(wire
+		(pts
+			(xy 64.77 129.54) (xy 67.31 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a346e959-1920-46c8-aefc-34dba90ff913")
 	)
 	(wire
 		(pts
@@ -4886,6 +4981,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 107.95) (xy 67.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d5fd93-2886-4d67-8695-3da620dfb13f")
+	)
+	(wire
+		(pts
 			(xy 166.37 134.62) (xy 170.18 134.62)
 		)
 		(stroke
@@ -4893,6 +4998,16 @@
 			(type default)
 		)
 		(uuid "cab37de0-7d03-4c1b-a21c-b1658ade73a5")
+	)
+	(wire
+		(pts
+			(xy 55.88 119.38) (xy 57.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d242c575-75b3-4deb-a989-97c8756445ac")
 	)
 	(wire
 		(pts
@@ -4906,16 +5021,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 83.82) (xy 96.52 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d667bd02-73c2-42b5-88db-2fc016aedb87")
-	)
-	(wire
-		(pts
 			(xy 224.79 113.03) (xy 224.79 115.57)
 		)
 		(stroke
@@ -4923,16 +5028,6 @@
 			(type default)
 		)
 		(uuid "d66a1da6-4e05-4ae9-8871-f962648863b5")
-	)
-	(wire
-		(pts
-			(xy 100.33 106.68) (xy 93.98 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da3db677-3f37-488c-8da2-086850d13f6f")
 	)
 	(wire
 		(pts
@@ -4946,13 +5041,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 104.14) (xy 93.98 104.14)
+			(xy 64.77 119.38) (xy 67.31 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df806d4f-c7bf-41ca-b84b-109d0830cc40")
+		(uuid "dc4dbc37-1261-474f-b8f9-f2ed6c82a932")
+	)
+	(wire
+		(pts
+			(xy 55.88 160.02) (xy 57.15 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfe09e3-6eae-4c6d-a179-18beeb481e1a")
 	)
 	(wire
 		(pts
@@ -4963,16 +5068,6 @@
 			(type default)
 		)
 		(uuid "e136612d-ef78-4a78-aa76-393021850858")
-	)
-	(wire
-		(pts
-			(xy 96.52 111.76) (xy 96.52 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e698c692-8246-4125-b8cc-24c3573bca1d")
 	)
 	(wire
 		(pts
@@ -5006,6 +5101,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 107.95) (xy 57.15 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d2d445-4462-4a59-8226-b4afa60668df")
+	)
+	(wire
+		(pts
 			(xy 198.12 77.47) (xy 199.39 77.47)
 		)
 		(stroke
@@ -5036,13 +5141,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 82.55) (xy 97.79 104.14)
+			(xy 64.77 97.79) (xy 67.31 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd3e6746-a898-4884-bbc2-cb6b18d956ea")
+		(uuid "fd8a9355-a2b9-4b52-bc2c-bf1d3c8b7bca")
 	)
 	(text "3.3V"
 		(exclude_from_sim no)
@@ -5115,6 +5220,148 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 160.02 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00065106-9386-4c5a-ad10-321289912abf")
+		(property "Reference" "R10"
+			(at 59.6899 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 62.2299 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dc8fb45-1ec8-40fb-ab0d-3d6a3097ca09")
+		)
+		(pin "1"
+			(uuid "64d7b19e-d704-4d6c-8364-e5aad0c7ec2a")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 129.54 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08cef97f-deff-4ebf-ab8e-c445e97faabc")
+		(property "Reference" "R7"
+			(at 59.6899 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 62.2299 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19989c02-9f3c-4513-8d79-665ba9b913f2")
+		)
+		(pin "1"
+			(uuid "dd66290b-df6e-4601-8d45-50bc5cb6fd09")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "R7")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5199,7 +5446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c9d125a-ab70-4e97-922d-8b0f80d2fa6c")
-		(property "Reference" "LD1"
+		(property "Reference" "LED1"
 			(at 220.345 106.045 90)
 			(effects
 				(font
@@ -5254,75 +5501,7 @@
 		(instances
 			(project "NerdFlare25"
 				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
-					(reference "LD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 92.71 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e6d7189-05c5-4f58-87ef-78a97a204edb")
-		(property "Reference" "C1"
-			(at 92.71 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "500-1000uF"
-			(at 92.71 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 96.52 82.8548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 92.71 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "13a9fcca-7746-45d4-8a74-390355626908")
-		)
-		(pin "1"
-			(uuid "095f029d-b1cd-4bd0-8f21-d1ff877ad277")
-		)
-		(instances
-			(project "NerdFlare25"
-				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
-					(reference "C1")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -5436,7 +5615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p28.pdf"
 			(at 194.564 77.47 90)
 			(effects
 				(font
@@ -5464,6 +5643,76 @@
 			(project "NerdFlare25"
 				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
 					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14f030c5-f73d-45b0-8adf-68f5c434106d")
+		(property "Reference" "D9"
+			(at 50.546 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 50.546 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b441206-121e-4884-8a30-e51bbb01e51f")
+		)
+		(pin "1"
+			(uuid "18ebb9db-d42d-46f1-ab39-ff9af8bb9077")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5538,6 +5787,288 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "165c61ef-45bd-4592-9cd8-127eed2c5db0")
+		(property "Reference" "D5"
+			(at 50.546 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 50.546 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cef5db9-c0d0-4492-bb5f-13de3ce9e12d")
+		)
+		(pin "1"
+			(uuid "aac468ad-fd07-4536-ade9-7eab5b81fa35")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 149.86 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2472cb28-494b-46fd-93f5-f0078575f0ca")
+		(property "Reference" "R9"
+			(at 59.6899 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 62.2299 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "457acc04-afd2-4b97-b1aa-2c3ffbb14779")
+		)
+		(pin "1"
+			(uuid "23cced6b-f368-4fa5-818e-96b6c69aefad")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2657b54c-ce23-4cbe-a627-cfab227784f9")
+		(property "Reference" "D8"
+			(at 50.546 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 50.546 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0484e23-df96-49d5-bb4f-d769d18d7466")
+		)
+		(pin "1"
+			(uuid "b8ecb5b5-22b0-4888-8256-41050257e744")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 170.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26f2d85b-d5b9-4ddf-853f-774050f0414b")
+		(property "Reference" "R11"
+			(at 59.6899 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 62.2299 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0edff14c-1c16-4468-a087-5325ba22135e")
+		)
+		(pin "1"
+			(uuid "caabf7eb-67c2-4f73-b3ed-8225476361ae")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id ".badge24:GND")
 		(at 224.79 125.73 0)
 		(mirror y)
@@ -5605,43 +6136,36 @@
 		)
 	)
 	(symbol
-		(lib_id ".badge24:VDD")
-		(at 96.52 67.31 0)
+		(lib_id "Device:R")
+		(at 60.96 77.47 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "37caeb16-0453-4076-8a87-0493976d9593")
-		(property "Reference" "#PWR02"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 99.695 64.77 0)
+		(fields_autoplaced yes)
+		(uuid "5719f200-ce66-4c35-90b2-322066016fce")
+		(property "Reference" "R1"
+			(at 59.6899 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 96.52 67.31 0)
+		(property "Value" "R"
+			(at 62.2299 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" ""
-			(at 96.52 67.31 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,74 +6173,69 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 96.52 67.31 0)
+		(property "Datasheet" "~"
+			(at 60.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4884f3b6-d5bc-4e15-8cb8-e7683b825a09")
 		)
 		(pin "1"
-			(uuid "ca8dff0f-2bdb-452e-83ae-303d70c4d88f")
+			(uuid "b30e37d3-2da7-490d-8416-02a6efb149fa")
 		)
 		(instances
 			(project "NerdFlare25"
 				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
-					(reference "#PWR02")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id ".badge24:SC0918")
-		(at 138.43 129.54 0)
+		(lib_id "Device:LED")
+		(at 52.07 77.47 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3cf7eef2-d293-4504-8911-f1cadf8824ac")
-		(property "Reference" "M1"
-			(at 114.935 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Value" "SC0918"
-			(at 160.02 73.66 0)
+		(uuid "58e6e453-3438-4f58-a286-a1a562474c80")
+		(property "Reference" "D1"
+			(at 50.546 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "nerdflare25:RPi_Pico_SMD_SAO"
-			(at 138.43 88.265 0)
+		(property "Value" "Red LED"
+			(at 50.546 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
-			(at 114.935 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 129.54 0)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,16 +6243,8 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturer" "Raspberry Pi Pico"
-			(at 139.065 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "SC0918"
-			(at 138.43 79.375 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,148 +6252,379 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1.6"
-			(at 138.43 81.915 0)
+		(property "Description" "Light emitting diode"
+			(at 52.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
-			(at 138.43 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "a7029111-8607-47e8-8ed1-00f2cfa7d18c")
-		)
-		(pin "15"
-			(uuid "77a3c311-f100-424d-bfb0-8d19c97e0876")
-		)
-		(pin "16"
-			(uuid "db60af48-b959-4873-b6dd-47a8333c2dbb")
-		)
-		(pin "17"
-			(uuid "eaeec536-6e3d-4bc4-8106-e8437c174cf2")
-		)
-		(pin "18"
-			(uuid "df8e4058-400e-4e19-88b1-c73c2d28d3a2")
-		)
-		(pin "19"
-			(uuid "b3230328-5c1b-4af9-9e03-4440bc9d0182")
 		)
 		(pin "2"
-			(uuid "1d178c42-935d-4b73-a5eb-68a57ae5f579")
-		)
-		(pin "20"
-			(uuid "893dd116-7540-4f70-8247-864c15e124ae")
-		)
-		(pin "21"
-			(uuid "e550c2d8-a561-440e-ac2a-f08762676f42")
-		)
-		(pin "22"
-			(uuid "604313f9-2c06-48c2-b15b-f2d102cea29d")
-		)
-		(pin "23"
-			(uuid "61331c61-5389-425c-89d5-9be3a4f87b2f")
-		)
-		(pin "24"
-			(uuid "966cbfb8-58df-4af8-a85c-388013f5684c")
-		)
-		(pin "25"
-			(uuid "ee7d1cc8-5810-4a3d-818a-1364d462f0a9")
-		)
-		(pin "26"
-			(uuid "2d216e88-a948-4f47-9e4e-c58133ed8c7b")
-		)
-		(pin "27"
-			(uuid "79272f7c-f6c9-42e1-b980-f3baf9bde85d")
-		)
-		(pin "28"
-			(uuid "0a53c920-97a5-49fc-b1d1-25b696a6753e")
-		)
-		(pin "29"
-			(uuid "ab5bd4ee-af04-4e0f-a442-63f6d9e054a0")
-		)
-		(pin "3"
-			(uuid "478117c6-fcb7-4eae-a43b-f6c4ada4f108")
-		)
-		(pin "30"
-			(uuid "866c5a4a-5bc7-45ea-a61f-21d155819b64")
-		)
-		(pin "31"
-			(uuid "9d30264a-442b-4a45-ba84-4a87ad5c4797")
-		)
-		(pin "32"
-			(uuid "a0f6685e-5d84-4f66-bcb8-59649f1b9496")
-		)
-		(pin "33"
-			(uuid "5c6ad70d-aded-4d63-84e0-ca79bfa3738d")
-		)
-		(pin "34"
-			(uuid "6b64321a-35d4-4c01-9bf2-3dc325b89c9d")
-		)
-		(pin "35"
-			(uuid "47f99463-414d-4ee7-9c7c-f56a8a192418")
-		)
-		(pin "36"
-			(uuid "8032cfe9-35e8-49a7-9ad6-e0ceb5ee0dcd")
-		)
-		(pin "37"
-			(uuid "bec4b3f2-e0b8-4b1d-ac59-3a5673a46736")
-		)
-		(pin "38"
-			(uuid "587d59a2-397e-4925-a3d3-40af46564bd8")
-		)
-		(pin "39"
-			(uuid "395b7b59-1459-4e60-9936-36186565423d")
-		)
-		(pin "4"
-			(uuid "66cb78c2-4fc2-48b8-a5d8-09d85277a4ca")
-		)
-		(pin "40"
-			(uuid "ae7d0951-4e8a-413f-8714-756707302f03")
-		)
-		(pin "5"
-			(uuid "8bf78bab-8764-4d59-99fd-f8d1b9fb8f12")
-		)
-		(pin "6"
-			(uuid "1ed05f3b-9478-443e-ac7a-4ecae4b689bb")
-		)
-		(pin "7"
-			(uuid "8ec63298-9381-45a6-81d4-a936635e7b47")
-		)
-		(pin "8"
-			(uuid "76e35a05-92d5-4f46-a57d-b2580762b7b4")
-		)
-		(pin "9"
-			(uuid "135b6ba1-7b60-4033-94a8-3fbb43fe57ea")
-		)
-		(pin "11"
-			(uuid "67e75867-68e9-461c-8eea-e5014c0948e0")
-		)
-		(pin "12"
-			(uuid "3e7efb9f-f971-4e24-aadb-3f79370e7261")
-		)
-		(pin "13"
-			(uuid "993a7634-a321-49bc-9436-fb82ff1e480e")
-		)
-		(pin "14"
-			(uuid "706f1cdd-8cb6-4c55-b777-a365ba02cc1c")
+			(uuid "291c214d-75b6-4042-a42c-b8e5ebf1e01a")
 		)
 		(pin "1"
-			(uuid "9eb8fc84-1837-4fbb-ad8e-c81d1a8ef33c")
+			(uuid "f70bb96f-7c29-4e6c-9915-63f47b6cb010")
 		)
 		(instances
 			(project "NerdFlare25"
 				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
-					(reference "M1")
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 97.79 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "615867b9-d25a-42f5-8ed8-48f041bf3fe0")
+		(property "Reference" "R4"
+			(at 59.6899 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 62.2299 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdcae487-d061-4aaf-bc19-cb05227d569a")
+		)
+		(pin "1"
+			(uuid "d8522216-0735-469f-a2ee-347932783368")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b525600-41b0-445e-ae9c-390bc7f78606")
+		(property "Reference" "D4"
+			(at 50.546 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 50.546 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f0c3e2b-1fc4-48ae-904d-88ea1c748989")
+		)
+		(pin "1"
+			(uuid "e2898908-1eb0-40de-a8ef-1eb6b6442e2f")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77388da3-7431-4130-a11f-214d96be177a")
+		(property "Reference" "D3"
+			(at 50.546 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 50.546 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2517d5fb-c884-40b7-9692-a299e4204e01")
+		)
+		(pin "1"
+			(uuid "573034cb-c4ab-4276-937b-5ede19e0fc37")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 201.93 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e3cbc59-7f84-4799-a3b6-74d85cbcd8a1")
+		(property "Reference" "SW2"
+			(at 205.74 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 205.74 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c0b4f30-ef5e-4871-92e5-66a5b450fad6")
+		)
+		(pin "2"
+			(uuid "ae5e23bb-1131-4a1d-b495-bc90be11010a")
+		)
+		(pin "3"
+			(uuid "712945b3-1a14-45b9-91fc-86e13a274ab8")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fbf81d6-e18a-4ab4-ab72-d0ed1ce263c9")
+		(property "Reference" "D7"
+			(at 50.546 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 50.546 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b461f76-8497-41d8-ab91-1f955391b5e4")
+		)
+		(pin "1"
+			(uuid "49717d48-df4d-4750-b2e7-6f883016e85e")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5955,6 +6697,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b263caf-96dd-444a-a18f-378ed5086ec9")
+		(property "Reference" "D2"
+			(at 50.546 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 50.546 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fd4fc16-a4ae-454a-8a93-8243dca0f9de")
+		)
+		(pin "1"
+			(uuid "04b75b5f-e916-4a07-8cc6-4460b8996076")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id ".badge24:Battery_Cell")
 		(at 184.15 77.47 270)
 		(unit 1)
@@ -5989,7 +6801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p28.pdf"
 			(at 185.674 77.47 90)
 			(effects
 				(font
@@ -6017,6 +6829,223 @@
 			(project "NerdFlare25"
 				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NerdFlare25:SC0918")
+		(at 138.43 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b4bfa14-c866-47e9-b5de-db65013afd06")
+		(property "Reference" "A1"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SC0918"
+			(at 138.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "nerdflare25:RPi_Pico_SMD_SAO"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
+			(at 107.95 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "Raspberry Pi Pico"
+			(at 138.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "SC0918"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.6"
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.73mm"
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "99aff908-7493-4603-96b9-7c6af773a985")
+		)
+		(pin "23"
+			(uuid "4df290d6-35a3-4ef8-9c18-d4233abecb25")
+		)
+		(pin "24"
+			(uuid "cc139312-f4e4-4c27-99bb-4b05b5366d22")
+		)
+		(pin "27"
+			(uuid "71dc43bb-93e0-4fd0-a53f-454658c7d80a")
+		)
+		(pin "28"
+			(uuid "34b4be75-e4c4-42ae-be2a-5339c9bd61bc")
+		)
+		(pin "20"
+			(uuid "c0c0d743-d674-4cd5-bc07-0a95f1055b48")
+		)
+		(pin "2"
+			(uuid "542815f9-eacf-426d-8fe1-0955a2ed6f8b")
+		)
+		(pin "12"
+			(uuid "c6136323-f4a4-4e81-bf7d-649520724fd1")
+		)
+		(pin "19"
+			(uuid "65be16fe-68d0-4a86-a90e-81a33b9d3085")
+		)
+		(pin "22"
+			(uuid "5fcadef0-e229-44e3-bc02-41550eda6753")
+		)
+		(pin "18"
+			(uuid "e61af7ee-9d39-4267-b3f8-f05c56ba91a1")
+		)
+		(pin "15"
+			(uuid "c4a047c8-5334-49d5-b689-b7fd623ad82f")
+		)
+		(pin "13"
+			(uuid "2a8e1e8f-9aee-4acc-89df-d798f40d2e2a")
+		)
+		(pin "25"
+			(uuid "a533b0f8-ffe3-4618-85af-6f8e884cee56")
+		)
+		(pin "26"
+			(uuid "b8eb221a-5a5d-47e1-80f3-ef20a77bb43c")
+		)
+		(pin "1"
+			(uuid "4bd23b91-5f61-4162-bb1c-a9065c605df7")
+		)
+		(pin "17"
+			(uuid "8e977858-c082-4af1-84f4-b731951440ff")
+		)
+		(pin "10"
+			(uuid "9c00b319-954b-4329-86c7-d558f5ef0e45")
+		)
+		(pin "29"
+			(uuid "3a2d6e23-2ddd-46c4-a59e-babd0bd6ed83")
+		)
+		(pin "3"
+			(uuid "f441b45e-44e1-4458-97aa-9752739fdee5")
+		)
+		(pin "30"
+			(uuid "8fa5eba7-2edb-43b3-a173-13bc5e1e72f8")
+		)
+		(pin "21"
+			(uuid "3e0f5bd5-61f6-4df3-b841-7f761d646564")
+		)
+		(pin "11"
+			(uuid "2c016444-3d3f-4133-97a3-7784cdc6af69")
+		)
+		(pin "14"
+			(uuid "5e41ebb3-2f81-4858-86be-c36c709d283b")
+		)
+		(pin "31"
+			(uuid "5b2c01fe-f994-481b-bbee-0ae7b55fbfc8")
+		)
+		(pin "32"
+			(uuid "f5b02c12-ffdc-4dd1-b1d3-99be1e410033")
+		)
+		(pin "33"
+			(uuid "c27779d9-f921-4910-b47f-9b459b60f537")
+		)
+		(pin "34"
+			(uuid "6dee2617-29e0-4ef2-9cd9-e10bb384a880")
+		)
+		(pin "35"
+			(uuid "0d928eba-df06-4f38-b241-383cad8b8a53")
+		)
+		(pin "36"
+			(uuid "c0bc7849-b22a-45d6-a0a9-59bb739c91f1")
+		)
+		(pin "37"
+			(uuid "8b899596-fa2d-400f-a181-ed92d6fba826")
+		)
+		(pin "38"
+			(uuid "16d2b72a-81a9-43d4-bb2a-0c6cceb3d8b7")
+		)
+		(pin "39"
+			(uuid "b14d007e-cdf8-425c-96af-f120d9b71ff1")
+		)
+		(pin "4"
+			(uuid "405571c9-079f-4939-85dc-b9adf2aa2668")
+		)
+		(pin "40"
+			(uuid "3c02b209-ef9c-4cff-bdf4-bc47c2a476d3")
+		)
+		(pin "5"
+			(uuid "7ece0bd2-d0a4-4647-9fdb-5a45eb79648d")
+		)
+		(pin "6"
+			(uuid "716f576d-2d8b-4320-a25d-d92b00eba5db")
+		)
+		(pin "7"
+			(uuid "13c0977e-1132-4bee-b596-6cc28342a617")
+		)
+		(pin "8"
+			(uuid "d3b9cb30-975c-407a-a431-d0d88c185faa")
+		)
+		(pin "9"
+			(uuid "9bb29e64-53bb-4ab8-a62e-84dc767827bd")
+		)
+		(instances
+			(project ""
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "A1")
 					(unit 1)
 				)
 			)
@@ -6089,55 +7118,106 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:APA102")
-		(at 86.36 104.14 180)
+		(lib_id "Device:LED")
+		(at 52.07 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aca1ceba-f154-43c7-b46e-6cec45d8d182")
+		(property "Reference" "D10"
+			(at 50.546 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 50.546 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eee28eb2-89e1-4f2c-971e-146a84326e81")
+		)
+		(pin "1"
+			(uuid "3f402395-f748-403a-93d7-edbec293ea90")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 119.38 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a942c6cd-2ca3-4134-bb38-d5823dad963b")
-		(property "Reference" "D1"
-			(at 89.3765 93.98 0)
+		(uuid "aca7df7d-db6f-4a76-9115-40a6fa73c338")
+		(property "Reference" "R6"
+			(at 59.6899 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "APA102"
-			(at 89.3765 96.52 0)
+		(property "Value" "R"
+			(at 62.2299 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
-			(at 85.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.led-color.com/upload/201506/APA102%20LED.pdf"
-			(at 83.82 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 86.36 104.14 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,28 +7225,34 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "0b6a1f7d-1aaa-4f7b-b09a-39032aa331d4")
+		(property "Datasheet" "~"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "78399599-d225-4d8e-9316-5167a2c919fd")
-		)
-		(pin "3"
-			(uuid "fc3394b4-0f6b-4178-b9f4-94f26333c9c7")
+		(property "Description" "Resistor"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "909634c5-a950-4397-bc40-2ad3a6782db1")
+			(uuid "17f4c3e9-75d8-4dd0-8d04-926e014b8a2f")
 		)
 		(pin "1"
-			(uuid "4c961f92-a05b-43ca-854f-50ca6e9f04af")
-		)
-		(pin "6"
-			(uuid "6aad454d-8858-4b91-895e-7795f877cef7")
+			(uuid "45421b06-b2e8-4f3e-9f2a-e0e3357f205d")
 		)
 		(instances
 			(project "NerdFlare25"
 				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
-					(reference "D1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6380,6 +7466,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 52.07 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfa3d56d-642a-437d-bb9a-5b00cecbbb60")
+		(property "Reference" "D6"
+			(at 50.546 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 50.546 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "nerdflare25:Wurth WL-SMSW Series SMT Mono-color Side view LED"
+			(at 52.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124BS73200.pdf"
+			(at 52.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 52.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29b42c40-84fc-4af9-bb19-a84af2b34c19")
+		)
+		(pin "1"
+			(uuid "92f8ef58-b2ca-415a-8229-58361d305664")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id ".badge24:GND")
 		(at 180.34 83.82 0)
 		(mirror y)
@@ -6582,42 +7738,36 @@
 		)
 	)
 	(symbol
-		(lib_id ".badge24:RES")
-		(at 106.68 80.01 90)
+		(lib_id "Device:R")
+		(at 60.96 87.63 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e4f21509-7b17-4fb8-88a4-85019c3aef0f")
-		(property "Reference" "R1"
-			(at 105.41 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Value" "300"
-			(at 107.95 83.185 0)
+		(fields_autoplaced yes)
+		(uuid "e1c29806-ebaa-406a-94fc-96d30fbad6fe")
+		(property "Reference" "R3"
+			(at 59.6899 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 106.934 78.994 90)
+		(property "Value" "R"
+			(at 62.2299 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" ""
-			(at 106.68 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,8 +7775,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 106.68 80.01 0)
+		(property "Datasheet" "~"
+			(at 60.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,16 +7784,96 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d1569493-632c-45b6-9635-38ce38305c71")
+		(property "Description" "Resistor"
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "f926569c-a35c-416b-97f4-f40afa9929f4")
+			(uuid "f11e42bc-395a-4fb1-a4bb-4b9c7522ad7a")
+		)
+		(pin "1"
+			(uuid "3e078528-2ed3-4aa6-a585-335591722e42")
 		)
 		(instances
 			(project "NerdFlare25"
 				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
-					(reference "R1")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 139.7 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeaf531d-bd04-40cf-bbb6-13eae6c5ed01")
+		(property "Reference" "R8"
+			(at 59.6899 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 62.2299 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 137.922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7cd56e69-7647-4a4f-94f9-07de24dd511d")
+		)
+		(pin "1"
+			(uuid "138226de-eb17-43e5-af9b-768d5a4c0ffc")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6716,6 +7946,77 @@
 			(project "NerdFlare25"
 				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 107.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feb369f5-5a7c-4874-b6bb-0618aca59a67")
+		(property "Reference" "R5"
+			(at 59.6899 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 62.2299 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 60.96 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e97bf16-ed31-4e18-950d-5597bda089c9")
+		)
+		(pin "1"
+			(uuid "d65d42a3-8f36-4460-9608-52ce4ea8fb8a")
+		)
+		(instances
+			(project "NerdFlare25"
+				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
+					(reference "R5")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,179 @@
+(footprint "Wurth WL-SMSW Series SMT Mono-color Side view LED"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "053ed96b-e568-4109-bb3c-434f194793f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Wurth WL-SMSW SMT Mono-color Side view LED"
+		(at 0.7 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5d057b77-293d-4d75-99e9-a0948d336ebe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5df5cda9-d8fd-45db-8807-7d9fe79f4c71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/155124RS73200.pdf"
+		(at 2.2 9.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8a47b33-335f-439b-b947-10bc9daa449b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c782901e-0467-4054-b8cf-a411468dc991")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 0.6)
+		(end -2.2 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0aa3fef7-8f74-4392-945e-3c7848327abe")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end -2.2 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3bbb9784-1fa4-409a-8840-49ba5a6c35ed")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -2.2 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ddbd7ec-d221-4140-946e-8ff714f1d6bb")
+	)
+	(fp_poly
+		(pts
+			(xy 2.2 -0.8) (xy 1 -0.8) (xy 1 -1.95) (xy -1 -1.95) (xy -1 -0.8) (xy -2.4 -0.8) (xy -2.4 0.8) (xy 2.2 0.8)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "897b39a1-5236-47e0-938e-edd0368f2423")
+	)
+	(fp_text user "+"
+		(at 0.8 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5717be0a-7d23-4881-8ea3-283e5ed04d7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at -2.2 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e5986c12-7615-4ee9-ad7f-9acba56e024d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c85130eb-90b0-4788-8134-c5c26937d4d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 0.8 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6774a57c-6e9c-4205-af7d-270200becfbd")
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "632f68e3-c1d3-4f88-a653-3dd7539f9db4")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c025798d-0a48-4dad-8718-31ee0ada69c3")
+	)
+	(model "${KIPRJMOD}/packages3D/WL-SMSW_1204.step"
+		(offset
+			(xyz 0 -0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

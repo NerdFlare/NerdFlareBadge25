@@ -700,7 +700,7 @@
 	)
 	(model "${KIPRJMOD}/packages3D/Pico.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz -1 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
