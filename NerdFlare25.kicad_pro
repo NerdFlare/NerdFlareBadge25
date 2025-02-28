@@ -458,10 +458,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "GND": "gnd",
-      "VDD": "vdd"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -473,7 +470,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "../CP-shield/SVG Layers CP_Shield/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
