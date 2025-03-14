@@ -4198,7 +4198,7 @@
 		(dnp no)
 		(uuid "00065106-9386-4c5a-ad10-321289912abf")
 		(property "Reference" "R7"
-			(at 182.626 102.87 90)
+			(at 181.61 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +4824,7 @@
 		(dnp no)
 		(uuid "26f2d85b-d5b9-4ddf-853f-774050f0414b")
 		(property "Reference" "R1"
-			(at 93.472 80.01 90)
+			(at 93.98 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1424/pcm.pdf"
 			(at 209.55 74.93 0)
 			(effects
 				(font
@@ -5656,7 +5656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b4bfa14-c866-47e9-b5de-db65013afd06")
-		(property "Reference" "A1"
+		(property "Reference" "Raspberry_Pi_Pico_2_W"
 			(at 138.43 64.77 0)
 			(effects
 				(font
@@ -5680,7 +5680,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
+		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf"
 			(at 107.95 147.32 0)
 			(effects
 				(font
@@ -5857,7 +5857,7 @@
 		(instances
 			(project ""
 				(path "/e9f3a93b-0064-4663-9dc0-954d0d9aed5b"
-					(reference "A1")
+					(reference "Raspberry_Pi_Pico_2_W")
 					(unit 1)
 				)
 			)
@@ -6449,7 +6449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1471/pts645.pdf"
 			(at 96.52 120.65 0)
 			(effects
 				(font
@@ -6710,7 +6710,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 90.17 89.154 90)
+			(at 90.678 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
