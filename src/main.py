@@ -1,49 +1,73 @@
-from machine import Timer
+'''
+   _  __           ________             ___  ____
+  / |/ /__ _______/ / __/ /__ ________ |_  |/ __/
+ /    / -_) __/ _  / _// / _ `/ __/ -_) __//__ \ 
+/_/|_/\__/_/  \_,_/_/ /_/\_,_/_/  \__/____/____/ 
+
+Firmware Version 1.0
+'''
+
+#from machine import Timer
 import utime, time
 import aioble
 import asyncio
 import nerdflare25
-import bluetooth
 
+DEBUG = False
 
-pressed = False
-NUM_MODES = 3
-mode = 0
+#How many LED modes are there
+NUM_MODES = 4
 
-# Advertising frequency - how long the device advertises
+# BLE Advertising frequency - how long the device advertises
 ADV_INTERVAL_MS = 5000  # 5 seconds
 TIMEOUT_MS = 10000 #10 seconds
-#How long do we remember seen badges
-TOO_OLD = 10 #10 seonds
+#How long do we remember seen badges before forgeeting htem
+TOO_OLD = 10 #10 seconds
+BADGE_NAME = "NerdFlare25" #BLE Advertisement Device Name
 
-badges = {} # a dictionary of badges we've seen recently
+# a dictionary of badges we've seen recently
+# Keyed by their BLE MAC address, vales are the list time we saw them
+badges = {} 
 
+#State variables
+pressed = False #Is the button currently pressed
+mode = 0 #What LED mode are we in
+
+#Asynchronous task that advertises our badge name
+#All badges use the same name, but should have different BLE addresses
+#Because they never make a connection, they will always timeout in (TIMEOUT_MS)
+#This is OK, we use this as an oppurtunity to cleanup our seen badge dictionary
 async def do_advertise():
     while True:
-        print("Advertising")
+        if DEBUG:
+            print("Advertising")
         try:
             await aioble.advertise(ADV_INTERVAL_MS, name="NerdFlare25",timeout_ms=TIMEOUT_MS)
         except Exception as e:
-            print("Timeout")
+            if DEBUG:
+                print("Timeout")
             # After every timeout, let's check to see if we've heard from other badges recently
-            #This could also be handled with a Timer, probably
+            # This could also be handled with a Timer, probably
             for badge in badges:
                 if time.time() - badges[badge] > TOO_OLD:
                     #If the badge is long gone, delete it from our list
-                    print("TOO old!")
+                    if DEBUG:
+                        print(badge, "is TOO old!")
                     del badges[badge]
-                    #and turn off the LEDs in case we need to return to another mode
+                    #and turn off the LEDs in case we need to return to our default mode
                     nerdflare25.allOff()
 
-
+#Asynchronous task that looks (scans) for other NF25 badges
+#If a badge is seen, we add it to our dictionary of seen badges
 async def do_scan():
     while True:
-        print("Scanning")
+        if DEBUG:
+            print("Scanning")
         #async with aioble.scan(duration_ms=10000) as scanner:
         #These are magic numbers that seem to work
         async with aioble.scan(5000, interval_us=30000, window_us=30000, active=True) as scanner:
             async for result in scanner:
-                if result.name() == "NerdFlare25": #If we see a NF25 badge
+                if result.name() == BADGE_NAME: #If we see a NF25 badge
                     if result.device.addr_hex() not in badges:
                         #its a new badge, so disable lights in case we're in another mode
                         nerdflare25.allOff()
@@ -51,7 +75,11 @@ async def do_scan():
                     print("addr: ", result.device.addr_hex(), "name: ",result.name())
 
 
-
+#Each UI mode is a non-blocking loop that changes state
+#based on how much time is passed or counter
+#Generally we don't want to call delay() in an asychronous task
+#as it will block all other tasks from running. We could await if we 
+#really need to hold a state.
 async def do_ui():
     global mode, pressed
     while True:
@@ -62,37 +90,36 @@ async def do_ui():
                 nerdflare25.marquee()
             if mode == 2:
                 nerdflare25.marquee2()
+            if mode == 3:
+                nerdflare25.marquee3()
         else:
-            nerdflare25.randomBlinkDuration = int(500/len(badges))
             nerdflare25.randomBlink()
         
+        #The button is on a pull-up resistor so will be False
+        #when pressed. If the button has been pressed, dont 
+        #change mode again until after the button has been released again.
         if not nerdflare25.button.value() and not pressed:
-            pressed = True
+            pressed = True 
             mode = (mode + 1)%NUM_MODES
             nerdflare25.allOff()
         if nerdflare25.button.value():
             pressed = False
-
+        #Never Sleep!
         await asyncio.sleep_ms(0)
 
 async def main():
     task_scan = asyncio.create_task(do_scan())
     task_advertise = asyncio.create_task(do_advertise())
     task_blink = asyncio.create_task(do_ui())
-    #await asyncio.sleep(dur/1000)
     await asyncio.gather(task_scan, task_advertise, task_blink)
-    #await asyncio.gather(task_advertise, task_blink)
 
 
 asyncio.run(main())
 
-
-
 '''
-tim = Timer()
-timset = False
-tim2= Timer()
+#This is some example code that uses a timer to periodically call a function
 
+tim = Timer()
 
 TOCK = True
 def tick(timer):
@@ -113,15 +140,11 @@ def tick(timer):
     #print("tick")
     #D2.toggle()
  
-def flip():
-    global D1, D2
-    D1.toggle()
-    D2.toggle()
-    print("flip")
- 
+tim.init(freq=2.5, mode=Timer.PERIODIC, callback=tick)
 '''
 
 '''
+#An asychronous LED blinking function
 async def do_blink():
     global flag
     pin = Pin("LED", Pin.OUT)
