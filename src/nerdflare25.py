@@ -4,7 +4,7 @@
  /    / -_) __/ _  / _// / _ `/ __/ -_) __//__ \ 
 /_/|_/\__/_/  \_,_/_/ /_/\_,_/_/  \__/____/____/ 
 
-Firmware Version 1.0
+Firmware Version 1.1
 '''
 
 from machine import Pin, Timer, PWM
@@ -53,7 +53,7 @@ button = Pin(8, Pin.IN, Pin.PULL_UP)
 lastLightTime = 0
 randomBlinkDuration = 500 #ms
 lastLEDsLit = []
-howMany = 2
+howMany = 0
 
 #Sunset/Sunrise State Variables
 sunsetCounter = 0
@@ -68,11 +68,14 @@ even = True
 def randomBlinkBadges(numBadges=0):
     global howMany, randomBlinkDuration
 
-    if numBadges == 0:
-        howMany = 2
+    if numBadges == 1:
+        howMany = 1
         randomBlinkDuration = 500
-    if numBadges > 0 and numBadges < 3:
+    if numBadges == 2:
         howMany = 2
+        randomBlinkDuration = 500       
+    if numBadges == 3:
+        howMany = 3
         randomBlinkDuration = 250
     if numBadges > 2 and numBadges < 5:
         howMany = 3
@@ -86,7 +89,7 @@ def randomBlinkBadges(numBadges=0):
 #This is a non-blocking (no delay) function, using CPU ticks
 #to determine when to change state.
 def randomBlink(numBadges=0):
-    global lastLightTime, randomBlinkDuration, lastLEDsLit
+    global lastLightTime, randomBlinkDuration, lastLEDsLit, howMany
 
     randomBlinkBadges(numBadges)
     currentTime = time.ticks_ms()

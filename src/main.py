@@ -4,16 +4,19 @@
  /    / -_) __/ _  / _// / _ `/ __/ -_) __//__ \ 
 /_/|_/\__/_/  \_,_/_/ /_/\_,_/_/  \__/____/____/ 
 
-Firmware Version 1.0
+Firmware Version 1.1
 '''
 
 #from machine import Timer
-import utime, time
+import time
 import aioble
 import asyncio
 import nerdflare25
 
-DEBUG = False
+DEBUG = True
+
+if DEBUG:
+    print("NerdFlare25: Version 1.1")
 
 #How many LED modes are there
 NUM_MODES = 4
@@ -69,10 +72,13 @@ async def do_scan():
             async for result in scanner:
                 if result.name() == BADGE_NAME: #If we see a NF25 badge
                     if result.device.addr_hex() not in badges:
+                        if DEBUG:
+                            print("See a new badge!", result.device.addr_hex())
                         #its a new badge, so disable lights in case we're in another mode
                         nerdflare25.allOff()
                     badges[result.device.addr_hex()] = time.time() #Add it to our dictionary
-                    print("addr: ", result.device.addr_hex(), "name: ",result.name())
+                    if DEBUG:
+                        print("addr: ", result.device.addr_hex(), "name: ",result.name())
 
 
 #Each UI mode is a non-blocking loop that changes state
@@ -93,7 +99,7 @@ async def do_ui():
             if mode == 3:
                 nerdflare25.marquee3()
         else:
-            nerdflare25.randomBlink()
+            nerdflare25.randomBlink(len(badges))
         
         #The button is on a pull-up resistor so will be False
         #when pressed. If the button has been pressed, dont 
