@@ -4,7 +4,7 @@
  /    / -_) __/ _  / _// / _ `/ __/ -_) __//__ \ 
 /_/|_/\__/_/  \_,_/_/ /_/\_,_/_/  \__/____/____/ 
 
-Firmware Version 1.1
+Firmware Version 1.2.1
 '''
 
 from machine import Pin, Timer, PWM
@@ -63,6 +63,10 @@ sunrise = True
 marqueeTime = 0
 lastMarqueeLED = 0
 even = True
+
+#Pulse Mode State Variable
+pulseCounter = 0
+pulseOn = True
 
 #TODO: Test this
 def randomBlinkBadges(numBadges=0):
@@ -186,8 +190,22 @@ def allOn(brightness=65536):
     for led in LEDs:
         led.duty_u16(brightness)
 
-#TODO
+#
 def pulse():
+    global pulseCounter, pulseOn
+
+    if pulseCounter >= 65536:
+        pulseCounter = 65536
+        pulseOn = False
+    if pulseCounter <= 0:
+        pulseCounter = 0
+        pulseOn = True
+
+    if pulseOn:
+        pulseCounter += 64
+    else:
+        pulseCounter -= 64
+    allOn(brightness=pulseCounter)
     return
 
 #Marquee modes: Moves 'photons' around the edge of badge. 

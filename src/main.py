@@ -4,7 +4,7 @@
  /    / -_) __/ _  / _// / _ `/ __/ -_) __//__ \ 
 /_/|_/\__/_/  \_,_/_/ /_/\_,_/_/  \__/____/____/ 
 
-Firmware Version 1.1
+Firmware Version 1.2.1
 '''
 
 #from machine import Timer
@@ -16,10 +16,10 @@ import nerdflare25
 DEBUG = True
 
 if DEBUG:
-    print("NerdFlare25: Version 1.1")
+    print("NerdFlare25: Version 1.2.1")
 
 #How many LED modes are there
-NUM_MODES = 4
+NUM_MODES = 5
 
 # BLE Advertising frequency - how long the device advertises
 ADV_INTERVAL_MS = 5000  # 5 seconds
@@ -34,7 +34,7 @@ badges = {}
 
 #State variables
 pressed = False #Is the button currently pressed
-mode = 0 #What LED mode are we in
+mode = 4 #What LED mode are we in
 
 #Asynchronous task that advertises our badge name
 #All badges use the same name, but should have different BLE addresses
@@ -64,12 +64,14 @@ async def do_advertise():
 #If a badge is seen, we add it to our dictionary of seen badges
 async def do_scan():
     while True:
+        results = 0
         if DEBUG:
             print("Scanning")
         #async with aioble.scan(duration_ms=10000) as scanner:
         #These are magic numbers that seem to work
-        async with aioble.scan(5000, interval_us=30000, window_us=30000, active=True) as scanner:
+        async with aioble.scan(5000, interval_us=30000, window_us=30000, active=False) as scanner:
             async for result in scanner:
+                results += 1
                 if result.name() == BADGE_NAME: #If we see a NF25 badge
                     if result.device.addr_hex() not in badges:
                         if DEBUG:
@@ -79,7 +81,8 @@ async def do_scan():
                     badges[result.device.addr_hex()] = time.time() #Add it to our dictionary
                     if DEBUG:
                         print("addr: ", result.device.addr_hex(), "name: ",result.name())
-
+            if DEBUG:
+                print("Results", results)
 
 #Each UI mode is a non-blocking loop that changes state
 #based on how much time is passed or counter
@@ -89,17 +92,18 @@ async def do_scan():
 async def do_ui():
     global mode, pressed
     while True:
-        if len(badges) < 1:
-            if mode == 0:
-                nerdflare25.sunrise_sunset()
-            if mode == 1:
-                nerdflare25.marquee()
-            if mode == 2:
-                nerdflare25.marquee2()
-            if mode == 3:
-                nerdflare25.marquee3()
-        else:
+        if mode == 0:
+            nerdflare25.sunrise_sunset()
+        if mode == 1:
+            nerdflare25.marquee()
+        if mode == 2:
+            nerdflare25.marquee2()
+        if mode == 3:
+            nerdflare25.marquee3()
+        if mode == 4 and len(badges) > 0:
             nerdflare25.randomBlink(len(badges))
+        elif mode == 4 and len(badges) == 0:
+            nerdflare25.pulse()
         
         #The button is on a pull-up resistor so will be False
         #when pressed. If the button has been pressed, dont 
