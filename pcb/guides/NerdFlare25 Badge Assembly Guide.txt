@@ -1,0 +1,147 @@
+# PCB Assembly Instructions Outline
+
+## 0. Expectations
+Degree of challenge: high, and worth it
+
+This board has twenty six components and 100 solder points.  Most of the parts are tiny surface mount.  Once the technique is learned, assembly goes smoothly.  
+
+For learning, you may have opportunity to assemble one badge from beginning to end.
+For throughput and quality, you may then specialize in one or more steps within the process, so you can become expert at it.
+
+As a group we must catch errors as soon as possible, so this guide includes testing throughout.  Rework is difficult and time consuming, and becomes more so as parts are added to the board.
+
+
+## 1. Preparation
+- **Gather Components:**
+  - 10 pairs of LED and voltage drop resistor  (add details on color, polarity, handling)
+  - 1 transistor
+  - 1 switch
+  - 1 button with safety resistor
+  - 1 Raspberry Pi Pico W
+  - 2 AA battery holders
+  - 2 AA batteries
+- **Required Tools & Materials:**
+  - Soldering iron and solder
+  - Tweezers
+  - PCB holder or work mat
+  - Reading glasses, magnifer or microscope as necessary
+  - Test station: multimeter, power supply
+  - Software station: low-profile micro USB cable and laptop
+- **Safety Precautions:**
+  - Wear safety glasses
+  - Work in a well-ventilated area
+- **Image Placeholder:**  
+  ![Empty PCB](badge_empty.jpg)
+
+## 2. Assembly Process
+
+### 2.1. Install LEDs and Voltage Drop Resistors
+
+The side-firing LEDs are the most difficult to install, so we begin with them and test before proceeding to other parts.
+
+- **Step 2.1.1: Prepare the Board**
+  - Verify the LED placement, polarity, and color.  
+  - **Image Placeholder:**  
+    ![LED placement](detail_led_resistor.jpg)
+
+- **Step 2.1.2: Install Components**
+  - Apply small amount of solder to one of the LED pads. (Left pad may be best if you are right handed.)  
+  - Place LED and solder to that pad, observing polarity. We are using only the pads on each end of the LED, and not soldering the center (mechanical only) pin.  
+  - With the LED now held in place, solder the remaining pad.
+  - Use a similar process to place a voltage drop resistor and solder in place.
+  - If this is your first LED/resistor, visit the test station to confirm you've got it right.  If so, recommend applying small amount of solder to one pad for each component, and batching up steps.  This seems to help things go faster with higher quality results.
+  - **Image Placeholder:**  
+    ![Installing LEDs and Resistors](detail_led_resistor_2.jpg)
+
+- **Step 2.1.3: Testing**
+  - Visit the test station, use multimeter or power supply to verify that each LED-resistor pair is connected correctly back to the Pico pin pad and a ground point.
+  - Confirm that the LEDs light up when power is applied.
+  - Document any issues for troubleshooting. Do not proceed with any further parts until these are resolved or determined to be minor/okay to rework later.
+
+### 2.2. Install the Transistor
+
+- **Step 2.2.1: Prepare the Transistor**
+  - Identify the transistor’s terminals.  One side will have two terminals, the other only one, so it is easy to align correctly with board pads.  
+  - **Image Placeholder:**  
+    ![Transistor Terminal Placement](transistor.jpg)
+
+- **Step 2.2.2: Install the Transistor**
+  - Follow similar process to LEDs to place solder on one pad, solder transistor in place, and then solder the other pads. 
+
+- **Step 2.2.3: Testing**
+  - Test the transistor’s connections with a multimeter (check for continuity from part to other end of trace.
+  - (Optional) Run a preliminary function test of transistor if multimeter supports this.  
+
+### 2.3. Install the Switch
+
+- **Step 2.3.1: Position the Switch**
+  - Verify the correct pad placement for the switch.
+  - **Image Placeholder:**  
+    ![Switch Positioning](switch.jpg)
+
+- **Step 2.3.2: Solder the Switch**
+  - Use our normal solder technique to secure the switch in place and then solder remaining terminals.
+
+- **Step 2.3.3: Testing**
+  - Operate the switch manually to ensure proper mechanical and electrical function.
+  - Use a multimeter to check continuity in both states (on/off).
+
+### 2.4. Install the Button and Safety Resistor
+
+- **Step 2.4.1: Prepare the Button and Safety Resistor**
+  - Identify the correct orientation and connection points for both components.  Neither have polarity, so if it fits exactly on the pad then it's oriented correctly.  
+  - **Image Placeholder:**  
+    ![Button and Resistor Positioning](button_resistor.jpg)
+
+- **Step 2.4.2: Solder the Button and Safety Resistor**
+  - Mount the button first, then install the safety resistor. 
+
+- **Step 2.4.3: Testing**
+  - Press the button and verify that it matches expected behavior using multimeter to confirm continuity back to traces.
+
+### 2.5. Install the Raspberry Pi Pico W
+
+- **Step 2.5.1: Inspect the Pico**
+  - Ensure the Pico W is free from damage and ready for installation.
+
+- **Step 2.5.2: Mount the Pico**
+  - Same technique: apply solder to one corner pad, then carefully position the Pico onto the PCB being sure all 40 pads are correctly aligned.  
+  - Solder the necessary connection points.  Do NOT use large amounts of solder, but instead observe that a small amount of solder will "wick" under the Pico if applied carefully at the edge.  This makes a solid connection without danger of shorts or bridged pads.
+  - We do not use all of the pins, but do solder all of them.  This provides extra strength, avoids confusion about which pins, and takes little extra time.
+
+- **Step 2.5.3: Testing**
+  - Use multimeter to test continuity from top of Pico board to far end of trace, as applicable.  
+
+### 2.6. Install the AA Battery Holders
+
+- **Step 2.6.1: Position the Battery Holders**
+  - Verify correct alignment with the power input section of the PCB, observing polarity.
+  - **Image Placeholder:**  
+    ![Battery Holder Positioning](battery.jpg)
+
+- **Step 2.6.2: Solder the Battery Holders**
+  - Carefully feed battery holder pins through holes.  You may need to gently bend the pins to align with the holes.  Do not apply force to the holder or board.  
+  - Apply solder from the front of the badge, being careful to avoid melting the art.  A larger amount of solder is required here, but should still be a clean "mound".  Some soldering flux may be helpful here.
+  - Use flush cutters to trim the excess, leaving the solder mound in place.  If you can make the top smooth with solder, great!  If not, as a later step we may use rotary tool or other to smooth the remaining lead.  
+
+- **Step 2.6.3: Testing**
+  - Set switch to off (down) position.
+  - Insert AA batteries observing polarity.
+  - Use multimeter set to VDC to confirm correct voltage is seen at power terminals.
+
+## 3. Load Software and System Test
+
+- **Step 3.1: Load Software**
+  - Use low-profile micro USB cable and laptop to load correct MicroPython firmware, and then our badge software.  DO NOT force a full height micro USB connector into the Pico as this may damage the Pico or the PCB.  
+  
+- **Step 3.2: Comprehensive Testing**
+  - Set the switch to On.  Verify operation of the LEDs in expected pattern.
+  - **Image Placeholder:**  
+
+- **Step 3.2: Troubleshooting**
+  - Document any issues and re-inspect solder joints, component orientations, and connections.  We may have a dedicated troubleshooting and rework station to help you.
+  - **Image Placeholder:**  
+
+- **Step 3.3: Final Assembly Review**
+  - Ensure all components are secure and the PCB is free of solder bridges or debris.
+  - **Image Placeholder:**  
